@@ -2,14 +2,14 @@
 /* Add your global styles here */
 
 /* Template for single 8.5x11 sheet in landscape */
-.single-template {
+.large-template {
   width: 11in;
   height: 8.5in;
   /* Add specific styles for the single template */
 }
 
 /* Template for four signs per sheet in landscape */
-.four-per-sheet-template {
+.small-template {
   width: 11in;
   height: 8.5in;
   /* Add specific styles for the four-per-sheet template */
@@ -18,14 +18,14 @@
 
 /* Print styles for single 8.5x11 sheet in landscape */
 @media print and (orientation: landscape) {
-  .single-template {
+  .large-template {
     /* Define styles for printing on single 8.5x11 sheet */
   }
 }
 
 /* Print styles for four signs per sheet in landscape */
 @media print and (orientation: landscape) {
-  .four-per-sheet-template {
+  .small-template {
     /* Define styles for printing four signs per sheet */
   }
 }
