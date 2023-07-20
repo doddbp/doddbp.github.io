@@ -13,7 +13,7 @@ function generateSign() {
   console.log("SKU:", sku);
   console.log("Selected Template:", selectedTemplate);
 
-  // Customize this template as per your requirements
+  // general template
   const signTemplate = `
     <div class="sign ${selectedTemplate}">
       <h2>${name}</h2>
