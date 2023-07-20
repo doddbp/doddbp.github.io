@@ -5,33 +5,27 @@
 .large-template {
   width: 11in;
   height: 8.5in;
-  /* Add specific styles for the single template */
 }
 
 /* Template for four signs per sheet in landscape */
 .small-template {
   width: 11in;
   height: 8.5in;
-  /* Add specific styles for the four-per-sheet template */
-  /* For example, you might want to adjust margins, font sizes, and spacing for the smaller signs */
 }
 
-/* Print styles for single 8.5x11 sheet in landscape */
+/* Print styles for large template */
 @media print and (orientation: landscape) {
   .large-template {
     /* Define styles for printing on single 8.5x11 sheet */
   }
 }
 
-/* Print styles for four signs per sheet in landscape */
+/* Print styles for small template */
 @media print and (orientation: landscape) {
   .small-template {
     /* Define styles for printing four signs per sheet */
   }
 }
-
-/* Additional styles for printing (optional) */
-/* You can define additional print-specific styles here */
 
 .hide-on-print {
   display: none;
