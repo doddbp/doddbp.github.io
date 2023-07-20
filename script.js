@@ -8,6 +8,11 @@ function generateSign() {
   const sku = document.getElementById("sku").value;
   const selectedTemplate = document.getElementById("template").value;
 
+  console.log("Name:", name);
+  console.log("Price:", price);
+  console.log("SKU:", sku);
+  console.log("Selected Template:", selectedTemplate);
+
   // Customize this template as per your requirements
   const signTemplate = `
     <div class="sign ${selectedTemplate}">
